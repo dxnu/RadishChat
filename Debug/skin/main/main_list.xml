@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerticalLayout>
+	<HorizontalLayout>
+		<VerticalLayout width="50" bkcolor="#FF3C4956">
+			<Button name="btn_chats" width="25" height="25" bkimage="file='images\normal_chats.png'" hotimage="file='images\pushed_chats.png'" pushedimage="file='images\pushed_chats.png'" padding="10,5,5,5" />
+			<Button name="btn_contacts" width="25" height="25" bkimage="file='images\normal_contacts.png'" hotimage="file='images\pushed_contacts.png'" pushedimage="file='images\pushed_contacts.png'" padding="10,5,5,5" />
+			<Control />
+			<Button name="btn_setting" width="40" height="40" bkimage="file='images\setting.png'" padding="5,5,5,5" />
+		</VerticalLayout>
+		
+		<TabLayout name="tab_navigation">
+			<HorizontalLayout>
+				<Include source="main\session.xml" />
+				<Include source="main\chats.xml" />
+			</HorizontalLayout>
+			<HorizontalLayout>
+				<Include source="main\contacts.xml" />
+				<Include source="main\user_info.xml" />
+				<!-- <Include source="main\profile.xml" /> -->
+			</HorizontalLayout>
+		</TabLayout>
+	</HorizontalLayout>
+</VerticalLayout>

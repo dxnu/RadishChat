@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<HorizontalLayout bkcolor="FFF8F8F8">
+		<Control />
+		<VerticalLayout name="vl_userinfo" visible="false">
+			<Control />
+			<Label name="lab_userinfo_name" text="" />
+			<Label name="lab_userinfo_whatsup" text="" />
+			<Control height="1" bkcolor="#FFFF0000" padding="0,20,0,20" />
+			<HorizontalLayout height="20">
+				<Label text="备注：" />
+				<Edit name="et_userinfo_alias" tipvalue="添加备注" />
+			</HorizontalLayout>
+			<HorizontalLayout height="20">
+				<Label text="Radish ID：" />
+				<Label name="lab_userinfo_radishid" />
+			</HorizontalLayout>
+			<Control height="1" bkcolor="#FFFF0000" padding="0,20,0,20" />
+			<Button name="btn_messages" height="30" text="发送消息" textcolor="#FFFFFFFF" bkcolor="#FF21A201" hotbkcolor="#FF1E8C0F" />
+			<Control />
+		</VerticalLayout>
+		<Control />
+	</HorizontalLayout>
+</Window>

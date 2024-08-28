@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<Font id="login_font" name="微软雅黑" size="18" bold="true" />
+	<Default name="Edit" value="width=&quot;250&quot; normalimage=&quot;images\edit_normal_bg.png&quot; hotimage=&quot;images\edit_hover_bg.png&quot; focusedimage=&quot;images\edit_pushed_bg.png&quot;" />
+	
+	<TabLayout name="tab_login_signup">
+	<!-- log in -->
+		<VerticalLayout bkcolor="#FFFEFEFE">
+			<HorizontalLayout height="60">
+				<Control />
+				<Label text="账户登录" font="login_font" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" >
+				<Control />
+				<Label name="lab_login_error_tips" width="250" text="你的输入有误!" textcolor="#FFEB0B8A" bkcolor="#FFECCCCC" bordercolor="#FFEB0B8A" borderround="2,2" align="center" padding="0,0,0,2" visible="true" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20">
+				<Control />
+				<Edit name="et_login_account" tipvalue="账号" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" padding="0,10,0,0">
+				<Control />
+				<Edit name="et_login_password" tipvalue="密码" password="true" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" padding="0,10,0,0">
+				<Control />
+				<Button name="btn_retrieve_password" text="<a>忘记密码</a>" width="47" showhtml="true" />
+				<Label text=" | " width="10" align="center" />
+				<Button name="btn_to_signup" text="<a>免费注册</a>" width="47" showhtml="true" padding="0,0,35,0" />
+			</HorizontalLayout>
+			<HorizontalLayout padding="10,5,0,0">
+				<Control />
+				<Button name="btn_login" text="登录" textcolor="#FFFFFFFF" width="250" height="30" bkcolor="#FF1EBCF0" /> 
+				<Control />
+			</HorizontalLayout>
+		</VerticalLayout>
+		
+	<!-- sign in -->
+		<VerticalLayout bkcolor="#FFFEFEFE">
+			<HorizontalLayout height="60">
+				<Control />
+				<Label text="账户注册" font="0" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" >
+				<Control />
+				<Label name="lab_signup_error_tips" width="250" text="你的输入有误!" textcolor="#FFEB0B8A" bkcolor="#FFECCCCC" bordercolor="#FFEB0B8A" borderround="2,2" align="center" padding="0,0,0,2" visible="false" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20">
+				<Control />
+				<Edit name="et_signup_id" tipvalue="数字/字母和_的组合,不能_开头" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" padding="0,10,0,0">
+				<Control />
+				<Edit name="et_signup_password" tipvalue="密码" password="true" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="15" padding="0,10,0,0">
+				<Control />
+				<Label name="et_signup_psw_low" width="70" text="弱" textcolor="#FFFFFFFF" borderround="2,2" bkcolor="#FFCCCCCC" align="center" />
+				<Label name="et_signup_psw_mid" width="70" text="中" textcolor="#FFFFFFFF" borderround="2,2" bkcolor="#FFCCCCCC" align="center" padding="10,0,0,0" />
+				<Label name="et_signup_psw_high" width="70" text="强" textcolor="#FFFFFFFF" borderround="2,2" bkcolor="#FFCCCCCC" align="center" padding="10,0,0,0" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" padding="0,10,0,0">
+				<Control />
+				<Edit name="et_signup_repassword" tipvalue="确认密码" password="true" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" padding="0,10,0,0">
+				<Control />
+				<Edit name="et_signup_name" tipvalue="起个好听的昵称吧" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" padding="0,10,0,0">
+				<Control />
+				<Edit name="et_signup_signature" tipvalue="个性签名" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout height="20" padding="0,10,0,0">
+				<Control />
+				<Edit name="et_signup_email" tipvalue="邮箱-注册后不可修改" />
+				<Control />
+			</HorizontalLayout>
+			<HorizontalLayout padding="10,10,0,0">
+				<Control />
+				<Button name="btn_signup" text="注册" textcolor="#FFFFFFFF" width="250" height="30" bkcolor="#FF1EBCF0" /> 
+				<Control />
+			</HorizontalLayout>
+		</VerticalLayout>
+	</TabLayout>
+</Window>

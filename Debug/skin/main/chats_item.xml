@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<Font id="1" name="微软雅黑" size="14" />
+	<Default name="VScrollBar" value="scroll_auto_hidden=&quot;true&quot; width=&quot;8&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; scrollbarsize=&quot;9&quot; scrollbarfloat=&quot;false&quot; thumbnormalimage=&quot;file='images/scrollbar.png' source='0,0,9,8' corner='0,3,0,3'&quot; thumbhotimage=&quot;file='images/scrollbar.png' source='0,0,9,8' corner='0,3,0,3'&quot; thumbpushedimage=&quot;file='images/scrollbar.png' source='0,0,9,8' corner='0,3,0,3'&quot;" />
+	<VerticalLayout>
+		<List name="list_chats" vscrollbar="true" bkcolor="#FFF4F4F4">
+		</List>
+		<VerticalLayout height="150" bkcolor="#FFFFFFFF">
+			<VerticalLayout height="40">
+				<Control />
+				<HorizontalLayout height="20">
+					<!--表情等功能区-->
+					<Button name="btn_sticker" width="20" height="20" bkimage="file='images/face.png'" padding="15,0,0,0" />
+					<Button name="btn_file" width="20" height="20" bkimage="file='images/folder.png'" padding="15,0,0,0" />
+				</HorizontalLayout>
+				<Control />
+			</VerticalLayout>
+			<RichEdit name="richet_contents" vscrollbar="true" padding="10,0,10,0" />
+			<HorizontalLayout height="40">
+				<Control />
+				<Button name="btn_sends" width="60" height="25" text="发送" bkcolor="#FFF5F5F5" hotbkcolor="#FF099E10" bordersize="1" bordercolor="#FFE1E1E1" align="center" padding="0,5,10,0" />
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

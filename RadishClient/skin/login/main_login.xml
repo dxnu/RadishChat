@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="900,600" caption="0,0,0,30" alpha="255" showshadow="true" shadowsize="1" shadowcolor="#FF000000" shadowposition="0,5" shadowdarkness="100" shadowsharpness="100" trayiconid="101" traytiptext="tips">	
+	<VerticalLayout bordersize="1" bordercolor="#FF3188F4">
+		<VerticalLayout height="30">
+			<Include source="title\title.xml" />
+		</VerticalLayout>
+		<HorizontalLayout padding="1,0,1,1">
+			<Include source="login\show.xml" />
+			<Include source="login\login.xml" />
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

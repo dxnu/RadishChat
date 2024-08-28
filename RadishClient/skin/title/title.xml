@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<HorizontalLayout height="30" bkcolor="#FF106EBE">
+		<HorizontalLayout>
+			<Control width="25" height="25" bkimage="file='images\radish\radish3.png'" padding="5,2,2,2" textcolor="#FFFFFFFF" />
+		</HorizontalLayout>
+		<HorizontalLayout width="76">
+			<Button name="btn_min" width="31" tooltip="最小化" normalimage="file='images\title_min.png' source='0,0,31,29'" hotimage="file='images\title_min.png' source='31,0,62,29'" pushedimage="file='images\title_min.png' source='62,0,93,29'" />
+			<Button name="btn_close" width="45" tooltip="关闭" normalimage="file='images\title_close.png' source='0,0,45,29'" hotimage="file='images\title_close.png' source='45,0,90,29'" pushedimage="file='images\title_close.png' source='90,0,135,29'" />
+		</HorizontalLayout>
+	</HorizontalLayout>
+</Window>

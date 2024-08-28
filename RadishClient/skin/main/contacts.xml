@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<VerticalLayout width="250" bkcolor="#FF282A36">
+		<HorizontalLayout name="search_area" height="20">
+			<Edit name="et_friend_id" width="190" tipvalue="输入好友ID，添加好友" />
+			<Button name="btn_add_friend" width="60" text="Add" textcolor="#FFFFFFFF" bkcolor="#FF46474B" bordersize="1" bordercolor="#FF3188F4" hotbkcolor="#FF3188F4" />
+		</HorizontalLayout>
+		<List name="list_addrequests" maxheight="0" />
+		<List name="list_friends" vscrollbar="true" />
+	</VerticalLayout>
+</Window>

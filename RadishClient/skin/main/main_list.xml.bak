@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerticalLayout>
+	<HorizontalLayout>
+		<Include source="main\funcarea.xml" />
+		<Include source="main\contacts.xml" />
+		<Include source="main\sessions.xml" />
+		<Include source="main\profile.xml" />
+	</HorizontalLayout>
+</VerticalLayout>

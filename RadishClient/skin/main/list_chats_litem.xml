@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<ListContainerElement>
+		<Button name="btn_lchats_avatar" width="35" height="35" enabled="false" padding="5,5,0,0" bkimage="file='images\default-avatar.jpg'" />
+		<RichEdit name="richet_lchats_message" multiline="true" rich="true" readonly="true" bkimage="file='images\chats_other_bubble.png' corner='18,28,11,11'" inset="10,12,10,12" />
+		<Control />
+	</ListContainerElement>
+</Window>

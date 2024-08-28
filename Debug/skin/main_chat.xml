@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Window size="800,600" sizebox="5,10,15,20" caption="0,0,0,30" alpha="255" showshadow="true" trayiconid="101" traytiptext="tips">
+	<VerticalLayout>
+		<!--titlebar-->
+		<Include source="title\main_header.xml" />
+		<Include source="main\main_list.xml" />
+	</VerticalLayout>
+</Window>

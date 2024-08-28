@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerticalLayout>
+	<VerticalLayout width="250" bkcolor="#FFF3F3F3">
+		<VerticalLayout height="">
+			<Label name="profile_avator" width="70" height="70" bkimage="file='images\default-avatar.jpg'" borderround="35,35" padding="90,0,90,0" />
+  		<Text name="profile_name" text="Wills" align="center" padding="0,5,0,0" />
+		</VerticalLayout>
+  	<HorizontalLayout height="30" padding="10,0,0,0">
+  		<Label name="profile_ipaddress_icon" width="20" height="20" bkimage="file='images\default-avatar.jpg'" />
+  		<Text text="IP ADDRESS:" padding="5,5,0,0" autocalcwidth="true" />
+  		<Text name="profile_ipaddress" text="127.0.0.1" padding="0,5,0,0" />
+  	</HorizontalLayout>
+  	<HorizontalLayout height="30" padding="10,0,0,0">
+  		<Label name="profile_email_icon" width="20" height="20" bkimage="file='images\default-avatar.jpg'" />
+  		<Text text="EMAIL:" padding="5,5,0,0" autocalcwidth="true" />
+  		<Text name="profile_email" text="wills@163.com" padding="0,5,0,0" />
+  	</HorizontalLayout>
+  </VerticalLayout>
+</VerticalLayout>

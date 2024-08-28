@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<ListContainerElement>
+		<Control />
+		<VerticalLayout name="vl_rchats_bk" bkimage="file='images\chats_me_bubble.png' corner='18,28,11,11'" inset="15,10,15,10">
+			<RichEdit name="richet_rchats_message" font="1" multiline="true" rich="true" readonly="true" />
+		</VerticalLayout>
+		<VerticalLayout width="35" height="35" padding="5,5,5,5">
+			<Button name="btn_rchats_avatar" width="35" height="35" bkcolor="#FFFF0000" enabled="false" bkimage="file='images\default-avatar.jpg'" />
+		</VerticalLayout>
+		
+		<!-- <RichEdit name="richet_rchats_message" font="1" multiline="true" rich="true" readonly="true" bkimage="file='images\chats_me_bubble.png' corner='18,28,11,11'" inset="15,10,15,10" /> -->
+		<!-- <Button name="btn_rchats_avatar" width="35" height="35" padding="5,5,5,5" enabled="false" bkimage="file='images\default-avatar.jpg'" /> -->
+	</ListContainerElement>
+</Window>

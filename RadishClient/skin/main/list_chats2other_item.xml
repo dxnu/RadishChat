@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<ListContainerElement name="chats_item" height="50">
+		<HorizontalLayout>
+			<Control />
+			<VerticalLayout width="200" height="40" bkimage="file='images\chats_me_bubble.png' corner='15,28,18,11'" inset="15,12,13,7">
+				<RichEdit name="chats_message" text="你好" readonly="true" />
+			</VerticalLayout>
+			<VerticalLayout width="55">
+				<Button name="chats_avator" float="true" pos="5,5,0,0" width="35" height="35" enabled="false" bkimage="file='images\default-avatar.jpg'" />
+			</VerticalLayout>
+		</HorizontalLayout>
+	</ListContainerElement>
+</Window>

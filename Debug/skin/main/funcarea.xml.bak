@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerticalLayout>
+	<VerticalLayout name="" width="50" bkcolor="#FF3C4956">
+		<Option name="btn_chats" width="40" height="40" bkimage="file='images\chats.png'" padding="5,5,5,5" />
+		<Option name="btn_contacts" width="40" height="40" bkimage="file='images\friends.png'" padding="5,5,5,5" />
+		<Option name="btn_setting" width="40" height="40" bkimage="file='images\setting.png'" padding="5,5,5,5" />
+	</VerticalLayout>
+</VerticalLayout>

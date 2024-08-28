@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<VerticalLayout>
+		<List name="chats_list" bkcolor="#FFFF0000" vscrollbar="true">
+			<Include source="main\list_chats2other_item.xml" />
+			<Include source="main\list_chats2me_item.xml" />
+		</List>
+		<VerticalLayout height="110" bkcolor="#FF00FF00">
+			<HorizontalLayout height="20">
+				<!--表情等功能区-->
+			</HorizontalLayout>
+			<RichEdit height="60" vscrollbar="true" />
+			<HorizontalLayout>
+				<Control />
+				<Button name="chats_send" width="60" text="发送" textcolor="#FFFFFFFF" bkcolor="#FF46474B" bordersize="1" bordercolor="#FF3188F4" hotbkcolor="#FF3188F4" align="center" padding="0,5,10,5"/>
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

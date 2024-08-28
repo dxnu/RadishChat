@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerticalLayout>
+	<VerticalLayout width="50" bkcolor="#FF3C4956">
+		<Option name="btn_chats" width="40" height="40" bkimage="file='images\normal_chats.png'" hotimage="file='images\pushed_chats.png'" pushedimage="file='images\pushed_chats.png'" padding="5,5,5,5" />
+		<Option name="btn_contacts" width="40" height="40" bkimage="file='images\normal_contacts.png'" padding="5,5,5,5" />
+		<Control />
+		<Option name="btn_setting" width="40" height="40" bkimage="file='images\setting.png'" padding="5,5,5,5" />
+	</VerticalLayout>
+</VerticalLayout>

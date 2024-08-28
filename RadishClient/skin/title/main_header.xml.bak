@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VerticalLayout>
+	<Font id="0" name="宋体" size="18" bold="true" />
+	<VerticalLayout height="120" bkcolor="#FF34373E">
+	<!--title-->
+		<Include source="title\title.xml" />
+	
+		<HorizontalLayout height="100">
+		<!--left:Radish-->
+			<VerticalLayout>
+				<Label text="Radish Chat" font="0" textsize="50" textcolor="#FFFFFFFF" padding="20,30,0,0" />
+			</VerticalLayout>
+		<!--right:profile-->
+			<VerticalLayout>
+				<HorizontalLayout height="20" padding="0,10,50,0">
+					<Label />
+					<Button name="user_avatar" width="20" height="20" bkimage="file='images\default-avatar.jpg'" padding="0,0,10,0" />
+					<Label name="lab_user_name" text="wills" textcolor="#FFFFFFFF" align="right" autocalcwidth="true" />
+					<Label text="|" textcolor="#FFFFFFFF" align="right" autocalcwidth="true" padding="5,0,5,0" />
+					<Button name="btn_logout" text="LOGOUT" textcolor="#FFFFFFFF" bkcolor="#FF46474B" width="50" />
+				</HorizontalLayout>
+				<HorizontalLayout height="20" padding="0,20,50,0">
+					<Label />
+					<Button name="state" text="I'm online for chat" textcolor="#FFFFFFFF" width="150" bkcolor="#FF7DB25A" borderround="2,2" />
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+	</VerticalLayout>
+</VerticalLayout>

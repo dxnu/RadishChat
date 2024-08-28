@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerticalLayout>
+	<VerticalLayout width="200" bkcolor="#FF282A36">
+		<List name="list_friends">
+			<Include source="main\list_friends_item.xml" />
+		</List>
+	</VerticalLayout>
+</VerticalLayout>

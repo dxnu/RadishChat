@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<VerticalLayout width="250" bkcolor="#FF282A36">
+		<List name="list_sessions" vscrollbar="true" itemselectedbkcolor="FF778877" itemhotbkcolor="#FF777788">
+			<!-- <ListContainerElement height="60"> -->
+				<!-- <VerticalLayout> -->
+					<!-- <Control /> -->
+					<!-- <HorizontalLayout height="40"> -->
+						<!-- <Control width="35" height="35" padding="5,0,5,0" bkimage="file='images\default-avatar.jpg'" /> -->
+						<!-- <VerticalLayout> -->
+							<!-- <Label text="不见" textcolor="#FFFFFFFF" /> -->
+							<!-- <Label text="riancy --- 123456" textcolor="#FFFFFFFF" /> -->
+						<!-- </VerticalLayout> -->
+						<!-- <Label text="08/23/19" textcolor="#FFCCCCCC" autocalcwidth="true" padding="0,0,5,0" /> -->
+					<!-- </HorizontalLayout> -->
+					<!-- <Control /> -->
+				<!-- </VerticalLayout> -->
+			<!-- </ListContainerElement> -->
+		</List>
+	</VerticalLayout>
+</Window>

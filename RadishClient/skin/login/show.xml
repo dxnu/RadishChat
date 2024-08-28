@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<Default name="Button" value="width=&quot;10&quot; borderround=&quot;2,2&quot; padding=&quot;0,0,10,0&quot;" />
+	<VerticalLayout name="vl_show_pages" width="600" bkimage="images\show\show-page1.jpg">
+		<Control />
+		<HorizontalLayout height="5" padding="0,0,0,20">
+			<Control />
+			<Button name="btn_page1" width="15" bkcolor="#FFFF0000" />
+			<Button name="btn_page2" bkcolor="#FF00FF00" />
+			<Button name="btn_page3" bkcolor="#FF00FF00" />
+			<Button name="btn_page4" bkcolor="#FF00FF00" />
+			<Control />
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

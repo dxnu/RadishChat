@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<ListContainerElement name="chats_item" height="50">
+		<HorizontalLayout>
+			<VerticalLayout width="60">
+				<Button name="chats_avator" width="35" height="35" float="true" pos="10,5,0,0" bkimage="file='images\default-avatar.jpg'" />
+			</VerticalLayout>
+			<VerticalLayout width="200" height="40" float="true" pos="50,5,0,0" bkimage="file='images\chats_other_bubble.png' corner='18,28,11,11'" inset="15,12,13,7">
+				<RichEdit name="chats_message" text="hello" readonly="true" />
+			</VerticalLayout>
+		</HorizontalLayout>
+	</ListContainerElement>
+</Window>
